@@ -6,6 +6,7 @@
 ``````
 - [Pw Blogs](#pw-blogs)
   - [About](#about)
+  - [Demo link](#demo link)
   - [Features](#features)
   - [Usage](#usage)
   - [Technologies Used](#technologies-used)
@@ -17,6 +18,10 @@ This README file provides an overview of the **Pw Blogs** project, its purpose, 
 
 Pw Blogs is a simple blogging web application that allows users to create and manage their blogs. Users can use the provided form to add new blogs, including an image URL, blog title, blog description, and the main text. The blogs are saved using local storage, enabling users to access their blogs even after closing the website.
 ``````
+## Demo
+```
+A live demo of the Blog Site can be accessed at [Demo Link](https://cerulean-dieffenbachia-a7401e.netlify.app/) 
+```
 ## Features
 ``````
 - Easy-to-use form for creating and managing blogs.
