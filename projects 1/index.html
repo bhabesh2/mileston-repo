@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pw blogs</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Home</a>
+            <a href="./blog.html">Blog</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+
+    <!-- form -->
+
+    <button id="add-blog-btn" onclick="toggleForm()" style="display: block; margin: 20px auto; width: 200px;">Add Blog</button>
+
+
+    <form id="blog-form" style="display: none;">
+        <label for="image-url">Image URL:</label>
+        <input type="text" id="image-url" name="image-url" required>
+
+        <label for="blog-title">Blog Title:</label>
+        <input type="text" id="blog-title" name="blog-title" required>
+
+        <label for="blog-description">Blog Description:</label>
+        <input type="text" id="blog-description" name="blog-description" required>
+
+        <label for="blog-text">Write Text...</label>
+        <textarea id="blog-text" name="blog-text" required></textarea>
+
+        <button type="button" onclick="saveBlog()">Add Blog</button>
+    </form>
+    <!-- javascript file -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
