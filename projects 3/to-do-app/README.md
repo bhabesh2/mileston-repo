@@ -4,7 +4,7 @@ Todo App is a simple and efficient task management application built with React.
 
 ## Features
 
-- Add a Task: Users can enter their tasks and add them to the TaskTracker app. The app validates that each task contains 50 words or fewer before adding it to the list.
+- Add a Task: Users can enter their tasks and add them to the todo App app. The app validates that each task contains 50 words or fewer before adding it to the list.
 
 - Update Task Status: Users can easily update the status of a task between "Pending" and "Completed." This feature helps users keep track of their progress and accomplishments.
 
@@ -28,11 +28,11 @@ Todo App is a simple and efficient task management application built with React.
 
 ## Data Persistence
 
-The TaskTracker app utilizes local storage to store and retrieve tasks, ensuring that the data remains accessible even after closing the application.
+The todo App app utilizes local storage to store and retrieve tasks, ensuring that the data remains accessible even after closing the application.
 
 ## Limitations
 
-- The TaskTracker app uses local storage, which has a limited storage capacity in web browsers (usually around 5-10 MB). If the local storage limit is exceeded, the app may not function as expected.
+- The todo App app uses local storage, which has a limited storage capacity in web browsers (usually around 5-10 MB). If the local storage limit is exceeded, the app may not function as expected.
 - The app does not offer user authentication or account creation. It is designed for personal use or within a limited group of users sharing the same device/browser.
 
 
